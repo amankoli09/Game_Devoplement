@@ -1,87 +1,65 @@
-🎮✨ WORD SCRAMBLE GAME ✨🎮
-<p align="center"> <b>An Interactive UI-Focused Word Scramble Game</b><br> Built using HTML • CSS • JavaScript </p> <p align="center"> 🚀 <a href="https://game-devoplement.vercel.app/" target="_blank"><b>LIVE DEMO</b></a> </p>
-🌟 About The Project
+# 🎮✨ WORD SCRAMBLE GAME ✨🎮
 
-Welcome to the Word Scramble Game Dashboard —
-a visually immersive, UI-focused browser game designed with a modern glassmorphism style and dynamic gameplay logic.
+## 🚀 Interactive UI-Focused Word Scramble Game  
+### Built with **HTML • CSS • JavaScript**
 
-This project focuses on:
-
-🎨 Beautiful UI Design
-
-🧩 Smart Word Shuffle Logic
-
-📊 Real-time Score Updates
-
-🔥 Streak Tracking System
-
-📈 Accuracy Calculation
-
-💎 Clean & Responsive Layout
-
-🖼️ Game Preview
-
-Modern Glass UI + Fantasy Background + Dynamic Word Tiles
-
-Glassmorphism cards
-
-Animated shuffle words
-
-Dynamic scoring
-
-Responsive dashboard layout
-
-🚀 Live Website
-
-🔗 Play Now:
+🔗 **Live Demo:**  
 👉 https://game-devoplement.vercel.app/
 
-🛠️ Tech Stack
-Technology	Purpose
-HTML5	Structure
-CSS3	Glass UI, Layout, Styling
-JavaScript	Game Logic
-Vercel	Deployment
+---
 
-🎮 Features
-🧠 Smart Word System
+# 🌟 About The Project
 
-Random word selection
+Welcome to the **Word Scramble Game Dashboard** — a visually immersive browser-based game featuring:
 
-Dynamic letter shuffling
+- 🎨 Modern Glassmorphism UI
+- 🏞 Fantasy Background Design
+- 🔄 Dynamic Word Shuffle Logic
+- 📊 Real-Time Score Updates
+- 🔥 Streak Tracking System
+- 📈 Accuracy Calculation
+- 💎 Responsive Flexbox Layout
 
-Mixed word lengths (easy → hard)
+This project focuses on combining **beautiful UI design** with **smart game logic**.
 
-📊 Live Scoreboard
+---
 
-Score increases based on word length
+# 🎮 Game Features
 
-Best score tracking
+## 🧠 Smart Word System
+- Random word selection
+- Dynamic letter shuffling
+- Mixed word lengths (Easy → Hard)
 
-Streak tracking
+## 📊 Live Scoreboard
+- Score increases based on word length
+- Best score tracking
+- Streak counter
+- Accuracy percentage
 
-Accuracy percentage
+## 🎨 UI Highlights
+- Glassmorphism panels
+- Animated word tiles
+- Fantasy background theme
+- Smooth transitions
+- Responsive layout
 
-🎨 UI Design
+---
 
-Glassmorphism panels
+# ⚙️ How It Works
 
-Fantasy background image
+1️⃣ A random word is selected  
+2️⃣ Letters are shuffled  
+3️⃣ Player enters the correct word  
+4️⃣ If correct → Score increases  
+5️⃣ If wrong → Streak resets  
+6️⃣ New word loads automatically  
 
-Modern rounded dashboard
+---
 
-Responsive Flexbox layout
+# 🗂 Project Structure
 
-⚙️ How It Works
-
-1️⃣ A random word is selected
-2️⃣ Letters are shuffled
-3️⃣ Player enters correct word
-4️⃣ If correct → Score increases
-5️⃣ If wrong → Streak resets
-6️⃣ New word loads automatically
-
-📂 Project Structure
+```
 Game_Development/
 │
 ├── index.html
@@ -90,22 +68,44 @@ Game_Development/
 ├── main.css
 ├── main.js
 ├── Landing.png
-├── Mainimg.png
+└── Mainimg.png
+```
 
-📈 Future Improvements
+---
 
-⏳ Countdown Timer
+# 🚀 Deployment
 
-🎵 Sound Effects
+Deployed on **Vercel**
 
-🏆 Leaderboard System
+🌐 https://game-devoplement.vercel.app/
 
-🎚 Difficulty Levels
+---
 
-🌍 Multiplayer Mode
+# 🛠 Tech Stack
 
- Developer
-👑 Aman Koli
+- HTML5
+- CSS3 (Glass UI + Flexbox)
+- JavaScript (Game Logic)
+- Vercel (Deployment)
 
-B.Tech CSE Student
+---
+
+# 🔮 Future Improvements
+
+- ⏳ Countdown Timer
+- 🔊 Sound Effects
+- 🏆 Leaderboard System
+- 🎯 Difficulty Levels
+- 🌍 Multiplayer Mode
+
+---
+
+# 👨‍💻 Developer
+
+**Aman Koli** 👑  
+B.Tech CSE Student  
 UI-Focused Web & Frontend Developer
+
+---
+
+⭐ If you like this project, consider giving it a star!
