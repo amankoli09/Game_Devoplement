@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url('Mainimg.png') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.navbar h2 {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.player-info span {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.panel {
+    width: 260px;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        inset 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+
+.game-area {
+    width: 450px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(27px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.scrambled-word {
+    margin-bottom: 40px;
+}
+
+.scrambled-word span {
+    display: inline-block;
+    background: #f4c542;
+    color: #2e1250;
+    padding: 20px 22px;
+    margin: 10px 6px;
+    border-radius: 12px;
+    font-size: 26px;
+    font-weight: 700;
+    box-shadow: 0 6px 0 #c9a232;
+}
+
+.word-input {
+    width: 80%;
+    padding: 14px;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.submit-btn {
+    padding: 16px 60px;
+    background: #3dbb3d;
+    color: white;
+    font-size: 18px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #2fa52f;
+    transform: scale(1.08);
+}
+
+.panel h3 {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.panel p {
+    color: rgba(255, 255, 255, 0.85);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Word Scramble Dashboard</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <h2>🧩 Word Scramble</h2>
+        <div class="player-info">
+            <span>Player: Aman</span>
+            <span>Level: 3</span>
+            <span>Time: 30s</span>
+        </div>
+    </div>
+
+    <div class="dashboard">
+
+        <!-- Left Scoreboard -->
+        <div class="panel scoreboard">
+            <h3>🏆 Scoreboard</h3>
+            <p>Score: <span id="score">0</span></p>
+            <p>Best: <span id="best">0</span></p>
+            <p>Streak: <span id="streak">0</span></p>
+
+        </div>
+
+        <!-- Center Game Area -->
+        <div class="panel game-area">
+            <div class="scrambled-word" id="scrambledWord">
+                <span>R</span>
+                <span>M</span>
+                <span>A</span>
+                <span>E</span>
+                <span>S</span>
+                <span>C</span>
+                <span>L</span>
+                <span>B</span>
+            </div>
+
+
+            <input type="text" placeholder="Enter correct word..." class="word-input">
+
+            <button class="submit-btn">Submit</button>
+        </div>
+
+        <!-- Right Stats -->
+        <div class="panel stats">
+            <h3>📊 Game Stats</h3>
+            <p>Correct: <span id="correct">0</span></p>
+            <p>Wrong: <span id="wrong">0</span></p>
+            <p>Accuracy: <span id="accuracy">0%</span></p>
+
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
