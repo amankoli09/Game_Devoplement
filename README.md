@@ -1,105 +1,111 @@
-🎮 Word Scramble Game
+🎮✨ WORD SCRAMBLE GAME ✨🎮
+<p align="center"> <b>An Interactive UI-Focused Word Scramble Game</b><br> Built using HTML • CSS • JavaScript </p> <p align="center"> 🚀 <a href="https://game-devoplement.vercel.app/" target="_blank"><b>LIVE DEMO</b></a> </p>
+🌟 About The Project
 
-An interactive Word Scramble Game Dashboard built using HTML, CSS, and JavaScript with a modern glassmorphism UI and dynamic gameplay logic.
+Welcome to the Word Scramble Game Dashboard —
+a visually immersive, UI-focused browser game designed with a modern glassmorphism style and dynamic gameplay logic.
 
-🔗 Live Demo:
-https://game-devoplement.vercel.app/
+This project focuses on:
 
-🚀 Features
+🎨 Beautiful UI Design
 
-🎨 Modern Glass UI Design
+🧩 Smart Word Shuffle Logic
 
-🧩 Random Word Scrambling
+📊 Real-time Score Updates
 
-📊 Live Scoreboard System
+🔥 Streak Tracking System
 
-🔥 Streak Tracking
+📈 Accuracy Calculation
 
-📈 Accuracy Percentage Calculation
+💎 Clean & Responsive Layout
 
-🏆 Best Score Tracking
+🖼️ Game Preview
 
-⌨️ Enter Key Support
+Modern Glass UI + Fantasy Background + Dynamic Word Tiles
 
-🎯 Mixed Difficulty Words (Small, Medium, Large)
+Glassmorphism cards
 
-📱 Responsive Layout
+Animated shuffle words
 
-🛠 Tech Stack
+Dynamic scoring
 
-HTML5 – Structure
+Responsive dashboard layout
 
-CSS3 – Styling (Glassmorphism, Flexbox)
+🚀 Live Website
 
-JavaScript (Vanilla JS) – Game Logic
+🔗 Play Now:
+👉 https://game-devoplement.vercel.app/
 
-Vercel – Deployment
+🛠️ Tech Stack
+Technology	Purpose
+HTML5	Structure
+CSS3	Glass UI, Layout, Styling
+JavaScript	Game Logic
+Vercel	Deployment
 
-🧠 How It Works
+🎮 Features
+🧠 Smart Word System
 
-A random word is selected from the word list.
+Random word selection
 
-The letters are shuffled dynamically.
+Dynamic letter shuffling
 
-The user enters the correct word.
+Mixed word lengths (easy → hard)
 
-If correct:
+📊 Live Scoreboard
 
-Score increases (based on word length)
+Score increases based on word length
 
-Streak increases
+Best score tracking
 
-Accuracy updates
+Streak tracking
 
-If wrong:
+Accuracy percentage
 
-Streak resets
+🎨 UI Design
 
-Wrong counter increases
+Glassmorphism panels
 
-A new word loads automatically.
+Fantasy background image
+
+Modern rounded dashboard
+
+Responsive Flexbox layout
+
+⚙️ How It Works
+
+1️⃣ A random word is selected
+2️⃣ Letters are shuffled
+3️⃣ Player enters correct word
+4️⃣ If correct → Score increases
+5️⃣ If wrong → Streak resets
+6️⃣ New word loads automatically
 
 📂 Project Structure
 Game_Development/
 │
-├── index.html        → Landing Page
-├── main.html         → Game Dashboard
-├── style.css         → Landing Page Styling
-├── main.css          → Game Styling
-├── main.js           → Game Logic
-├── Landing.png       → Landing Background
-├── Mainimg.png       → Game Background
+├── index.html
+├── main.html
+├── style.css
+├── main.css
+├── main.js
+├── Landing.png
+├── Mainimg.png
 
-🎯 Game Logic Highlights
-
-Words are shuffled using:
-
-word.split("").sort(() => Math.random() - 0.5).join("")
-
-
-Score increases based on word length:
-
-score += currentWord.length * 5;
-
-
-Accuracy is calculated dynamically:
-
-Math.round((correct / total) * 100);
-
-🌟 Future Improvements
+📈 Future Improvements
 
 ⏳ Countdown Timer
 
+🎵 Sound Effects
+
+🏆 Leaderboard System
+
 🎚 Difficulty Levels
-
-🔊 Sound Effects
-
-🏅 Leaderboard System
 
 🌍 Multiplayer Mode
 
-👨‍💻 Author
+ Developer
+👑 Aman Koli
 
-Aman Koli
 B.Tech CSE Student
-Passionate about UI-focused game development & web design.
+UI-Focused Web & Frontend Developer
