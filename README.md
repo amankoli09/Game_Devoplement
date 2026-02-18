@@ -44,8 +44,9 @@ This project focuses on combining **beautiful UI design** with **smart game logi
 - Smooth transitions
 - Responsive layout
 
-![Uploading Screenshot 2026-02-18 at 3.04.27 PM.png…]()
-![Uploading Screenshot 2026-02-18 at 3.04.52 PM.png…]()
+![Uploading Screenshot 2026-02-18 at 3.12.09 PM.png…]()
+
+![Uploading Screenshot 2026-02-18 at 3.12.26 PM.png…]()
 
 ---
 
@@ -110,5 +111,4 @@ B.Tech CSE Student
 UI-Focused Web & Frontend Developer
 
 ---
-
 ⭐ If you like this project, consider giving it a star!
